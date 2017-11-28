@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>NT</title>
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+<style type="text/css">
+	body {
+		background-color:grey;
+	}
+	div {display:flex;}
+	.carousel {
+
+		margin: auto;
+		/*border: 2px solid black;*/
+		width:240px;
+		height:400px;
+	}
+	.sl {
+
+		width:240px;
+		height:400px;
+		
+		background-size:contain;
+		background-repeat:no-repeat;
+	}
+	
+	.sl1 { background-image: url("slide1.png");}
+	.sl2 { background-image: url("slide2.png");}
+	.sl3 { background-image: url("slide3.png");}
+	
+	.btn {
+		position:relative;
+		bottom:-270px;
+		left:48px;
+		width:146px;
+		/*height:30px;*/
+		border: 1px solid white;
+		border-radius:10px;
+		
+		/*background-color:white;*/
+		/*color:black;*/
+		
+
+	    
+	}
+
+	
+</style>
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="jquery-3.2.1.min.js">  </script>
+<script src="bootstrap.js">  </script>
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="10000" data-pause="hover" >
+  <div class="carousel-inner">
+    <div class="carousel-item active sl sl1">
+   </div>
+    <div class="carousel-item sl sl2">
+
+    </div>
+    <div class="carousel-item sl sl3">
+<a class="btn btn-primary" href="https://nominaltechno.by/" role="button">Сделать шаг</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
